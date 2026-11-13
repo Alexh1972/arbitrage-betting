@@ -1,0 +1,13 @@
+application.name=arbitrage-betting
+
+datasource.host=localhost
+datasource.port=1521
+datasource.sid=orcl
+datasource.username=your_user
+datasource.password=your_password
+datasource.pool-size=50
+
+embedding.model=models/bge-small-en-v1.5-q.onnx
+embedding.tokenizer=models/bge-small-en-v1.5-tokenizer.json
+
+scheduler.fixed-delay-ms=2000
